@@ -1,0 +1,25 @@
+.newsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.cardNews {
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.imgNews {
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.txtTitle {
+    color: #09122C;
+}
+
+.txtAuthor {
+    color: #854836;
+}

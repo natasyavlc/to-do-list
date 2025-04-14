@@ -1,0 +1,140 @@
+.toDoList{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.h1{
+    font-size: 4rem;
+    color: white;
+}
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.addButton{
+    background-color: hsl(122, 100%, 28%);
+}
+.addButton:hover{
+    background-color: hsl(123, 30%, 28%);
+}
+.actionButtonWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-top: 36px;
+}
+.listWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.cancelButton{
+    border: 1px solid hsl(229, 86%, 55%);
+}
+.editButton, .doneButton{
+    background-color: hsl(229, 86%, 55%);
+}
+.editButton:hover{
+    background-color: hsl(229, 80%, 40%);
+}
+.deleteButton{
+    background-color: hsl(10, 90%, 50%);
+}
+.deleteButton:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+.moveButton{
+    background-color: hsl(207, 90%, 64%);
+}
+.moveButton:hover{
+    background-color: hsl(207, 90%, 54%);
+}
+.textTitle{
+    color: hsl(0, 0%, 40%);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+.textDesc{
+    color: hsl(0, 0%, 40%);
+    font-size: 20px;
+    text-align: left;
+}
+.deleteButton, .moveButton, .editButton{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+.titleCompleted{
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(0, 0%, 40%);
+    text-align: left;
+}
+.selectCategory{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 8%, 0.5);
+    width: 400px;
+    height: 60px;
+  }
+.category {
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+.General, .Work, .Personal, .Shopping, .Education, .Other {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    width: 120px;
+    text-align: center;
+}
+.General {
+    background-color: rosybrown;
+}
+.Work {
+    background-color: blue;
+}
+.Personal {
+    background-color: green;
+}
+.Shopping {
+    background-color: orange;
+}
+.Education {
+    background-color: chocolate;
+}
+.Other {
+    background-color: navy;
+}
+.filterWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.filterCategory{
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 8%, 0.5);
+    width: 250px;
+    height: 50px;
+    margin-right: 20px;
+}
