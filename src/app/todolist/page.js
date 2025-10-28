@@ -108,7 +108,7 @@ const ToDoList = () => {
 
     return (
         <>
-            {/* <Link href="/news">Today News</Link> */}
+            <Link href="/news">Today News</Link>
 
             <div className={styles.toDoList}>
 
